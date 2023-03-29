@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 18px;
+    background-color: #E9EFFD;
+    color: #E9EFFD;
+   
+}
+
+p{
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+}
+
+i{
+    font-style: normal;
+    color: #BABDCC;
+}
+
+h1{
+    margin-left: -10px;
+}
+
+h2{
+    margin: 20px;
+}
+
+h3{
+    padding: 20px 10px;
+}
+
+h6{
+    font-size: 15px;
+    width: 18px;
+}
+
+h6 i {
+    display: block;
+    margin-left: -5px; 
+    width: fit-content;
+}
+
+img{
+    height: 16px;
+    width: 16px;
+}
+
+li{
+    color: #2D334B;
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+    padding-left: 20px;
+    
+  
+}
+
+.cardOutline{
+    display: flex;
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    background-color: #FFF;
+}
+
+.cardResult{
+    background: #6341FA;
+    background-image: -webkit-linear-gradient(top, #6341FA, #3532BF);
+    background-image: -moz-linear-gradient(top, #6341FA, #3532BF);
+    background-image: -ms-linear-gradient(top, #6341FA, #3532BF);
+    background-image: -o-linear-gradient(top, #6341FA, #3532BF);
+    background-image: linear-gradient(to bottom, #6341FA, #3532BF);
+    border-radius: 7px;
+   
+   
+}
+
+.cardSummary{
+    border-radius: 7px;
+    text-align: left;
+   
+    
+
+    
+
+}
+
+.circularResult{
+    padding: 30px 60px;
+    margin: 20px auto;
+    border-radius: 100%;
+    background-color: #472BD8;
+    width: 20px;
+    
+}
+
+.analysis{
+    padding: 12px 20px;
+    margin: 12.5px 22.5px;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 8px;
+  
+}
+
+.grade{
+    margin-left: 20px;
+    
+    
+}
+
+.reaction{
+    color: #DF6165;
+    background-color: #FFF6F5;
+    margin-top: 10px;
+}
+
+.memory{
+    color: #E6C367;
+    background-color: #FFFBF2;
+}
+
+.verbal{
+    color: #36A288;
+    background-color: #F2FBFA;
+}
+
+.visual{
+    color: #252E8B;
+    background-color: #F3F3FD;
+}
+.btn {
+    background: #6341FA;
+    background-image: -webkit-linear-gradient(top, #6341FA, #3532BF);
+    background-image: -moz-linear-gradient(top, #6341FA, #3532BF);
+    background-image: -ms-linear-gradient(top, #6341FA, #3532BF);
+    background-image: -o-linear-gradient(top, #6341FA, #3532BF);
+    background-image: linear-gradient(to bottom, #6341FA, #3532BF);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 80px 10px 80px;
+    margin: 20px ;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #303B59;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:900px) and (min-width:10px) 
+{
+body{
+    width: 100%;
+}
+
+.cardOutline{
+    display: grid;
+    position: static;
+    transform: translate(0%,0%);
+}
+
+p {
+   padding:0 0 20px;
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+
+.cardResult{
+    min-width: 100%
+}
+
+.cardSummary{
+    width: 100%;
+}
+
+
+.grade{
+    position: absolute;
+    right: 50px;
+    
+    
+}
+
+
+
+
+.btn{   
+   
+   
+}
+}
+
+
+  
