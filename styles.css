@@ -63,7 +63,8 @@ li{
 .cardOutline{
     display: flex;
     text-align: center;
-    width: 60%;
+    width: 60vw;
+    margin-top: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -79,7 +80,7 @@ li{
     background-image: -ms-linear-gradient(top, #6341FA, #3532BF);
     background-image: -o-linear-gradient(top, #6341FA, #3532BF);
     background-image: linear-gradient(to bottom, #6341FA, #3532BF);
-    border-radius: 7px;
+    border-radius: 10px;
    
    
 }
@@ -163,6 +164,16 @@ li{
 }
 
 
+.attribution {
+    font-size: 18px; text-align: center;
+    
+ }
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
 
 
 
@@ -194,6 +205,7 @@ body{
 }
 
 .cardOutline{
+    width: 100vw;
     display: grid;
     position: static;
     transform: translate(0%,0%);
@@ -209,11 +221,11 @@ h3{
 
 
 .cardResult{
-    min-width: 100%
+    width: 100vw;
 }
 
 .cardSummary{
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -227,8 +239,9 @@ h3{
 
 
 
-.btn{   
-   
+.btn{ 
+    margin:0 30vw;
+    width: 30vw;
    
 }
 }
