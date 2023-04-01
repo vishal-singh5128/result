@@ -231,7 +231,7 @@ h6{
 
 .cardResult{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     border-radius: 15px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -239,7 +239,7 @@ h6{
 
 .cardSummary{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
 }
 
 
